@@ -1,5 +1,13 @@
-.container{
-    color: green;
-    background-color: #000;
-    height:100vh;
+.todoContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 75px;
+  background-color: rgb(239, 239, 239);
+}
+.todoContainer h1 {
+  font-weight: 400;
 }
