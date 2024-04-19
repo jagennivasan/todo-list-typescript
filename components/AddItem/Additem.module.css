@@ -4,6 +4,7 @@
   margin-top: 20px;
   background-color: rgb(243, 243, 243);
 }
+
 .addFields {
   display: flex;
   height: 75px;
@@ -17,6 +18,8 @@
   font-size: 15px;
 }
 .addBtn {
+  display: flex;
+align-items: center;
   background-color: rgb(45, 164, 45);
   font-size: 17px;
   color: white;
