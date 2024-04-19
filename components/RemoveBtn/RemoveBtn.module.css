@@ -1,0 +1,14 @@
+.removeBtn {
+  font-size: 20px;
+  background-color: rgb(193, 30, 30);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: transform 200ms ease-in-out;
+}
+.removeBtn:hover{
+    transform: scale(1.06);
+}
