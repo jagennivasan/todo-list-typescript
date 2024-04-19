@@ -18,10 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-       <div>
+        <h1 className="title">To-do List</h1>
        <AddItem/>
         {children}
-       </div>
       
         </body>
     </html>
